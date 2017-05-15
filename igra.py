@@ -8,10 +8,32 @@ class Plosca:
         pozicije_polj
 
 
-class Figura:
-    def __init__(self, ):
-        zacetna_pozicija
+class Igralec:
+    def __init__(self, ime="igralec1" ):
+        self.ime = ime
+        
+
+
+import random
+
+def met_kocke():
+        return random.randint(1,6)
 
 
 
-class Kocka
+class Pozicija:
+    def __init__(self):
+        zacetna_pozicija = 0
+        self.pozicija = zacetna_pozicija + met_kocke()
+    def __repr__(self):
+        return 'pozicija({})'.format(self.pozicija)
+    
+        
+    
+
+            
+        
+
+
+    
+        
