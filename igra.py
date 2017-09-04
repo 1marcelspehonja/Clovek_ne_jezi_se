@@ -27,6 +27,9 @@ class Pozicija:
         self.pozicija = zacetna_pozicija + met_kocke()
     def __repr__(self):
         return 'pozicija({})'.format(self.pozicija)
+
+
+fhgjdjhg
     
         
     
